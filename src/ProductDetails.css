@@ -2,20 +2,10 @@
   padding: 40px;
 }
 
-.product-info {
-  display: flex;
-  gap: 40px;
-  margin-bottom: 40px;
-}
-
 .product-image {
   max-width: 300px;
   border: 1px solid #ddd;
   border-radius: 8px;
-}
-
-.details {
-  max-width: 400px;
 }
 
 .price {
@@ -26,13 +16,6 @@
 
 .description {
   margin: 15px 0;
-}
-
-select {
-  margin: 10px 0;
-  padding: 8px;
-  border-radius: 4px;
-  border: 1px solid #ccc;
 }
 
 .add-to-cart {
@@ -46,17 +29,4 @@ select {
 
 .add-to-cart:hover {
   background-color: #005bb5;
-}
-
-.reviews, .related {
-  margin-top: 20px;
-}
-
-.related ul {
-  list-style: none;
-  padding: 0;
-}
-
-.related li {
-  margin: 5px 0;
 }

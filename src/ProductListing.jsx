@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./ProductListing.css";
 
 function ProductListing() {
@@ -21,12 +22,11 @@ function ProductListing() {
             <img src={p.image} alt={p.name} />
             <h3>{p.name}</h3>
             <p>{p.price}</p>
-            <button>Buy Now</button>
+            <Link to={`/product/${p.id}`}>
+              <button>View Details</button>
+            </Link>
           </div>
         ))}
-      </div>
-      <div className="pagination">
-        <button>Load More</button>
       </div>
     </div>
   );
