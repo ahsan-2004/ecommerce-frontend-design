@@ -6,6 +6,10 @@ function ProductListing() {
     { id: 2, name: "Headphones", price: "$99", image: "/headphones.jpg" },
     { id: 3, name: "Sofa", price: "$499", image: "/sofa.jpg" },
     { id: 4, name: "Shoes", price: "$59", image: "/shoes.jpg" },
+    { id: 5, name: "Watch", price: "$199", image: "/watch.jpg" },
+    { id: 6, name: "Laptop", price: "$899", image: "/laptop.jpg" },
+    { id: 7, name: "Camera", price: "$399", image: "/camera.jpg" },
+    { id: 8, name: "Table", price: "$149", image: "/table.jpg" },
   ];
 
   return (
