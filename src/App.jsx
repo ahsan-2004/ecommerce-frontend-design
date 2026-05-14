@@ -1,6 +1,6 @@
 import "./App.css";
 import ProductListing from "./ProductListing";
-
+import ProductDetails from "./ProductDetails";
 
 
 function App() {
@@ -44,6 +44,7 @@ function App() {
     </div>
   </section>
   <ProductListing />
+  <ProductDetails />
 </main>
 
 
