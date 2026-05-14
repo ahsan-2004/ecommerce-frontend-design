@@ -1,4 +1,7 @@
 import "./App.css";
+import ProductListing from "./ProductListing";
+
+
 
 function App() {
   return (
@@ -20,8 +23,29 @@ function App() {
       </header>
 
       <main>
-        <h1>Welcome to ShopEase</h1>
-      </main>
+  <section className="hero">
+    <div className="hero-content">
+      <h1>Discover the Best Deals</h1>
+      <p>Shop your favorite products at unbeatable prices.</p>
+      <button className="cta-btn">Shop Now</button>
+    </div>
+    <div className="hero-banner">
+      <img src="/banner.jpg" alt="Hero Banner" />
+    </div>
+  </section>
+
+  <section className="categories">
+    <h2>Featured Categories</h2>
+    <div className="category-grid">
+      <div className="category-card">Electronics</div>
+      <div className="category-card">Fashion</div>
+      <div className="category-card">Home & Furniture</div>
+      <div className="category-card">Sports</div>
+    </div>
+  </section>
+  <ProductListing />
+</main>
+
 
       <footer className="footer">
         <div className="footer-links">
